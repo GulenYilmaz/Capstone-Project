@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "title": "The Undefeated Mind",
+      "rating": 5,
+      "imageURL" : "https://images-na.ssl-images-amazon.com/images/I/51EnOwoxxdL._SX322_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Where the Crawdads Sing by Delia Owens",
+      "rating": 4,
+      "imageURL" : "https://media.kohlsimg.com/is/image/kohls/4464762?wid=1200&hei=1200&op_sharpen=1"
+    },
+    {
+      "id": 3,
+      "title": "The Power of Mental Discipline",
+      "rating": 5,
+      "imageURL" : "https://images-na.ssl-images-amazon.com/images/I/51mHdVlchlL._SX385_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Beauty and the Beast",
+      "rating": 3,
+      "imageURL" : "https://www.reelviews.net/resources/img/posters/thumbs/beauty_and_the_beast_poster.jpg"
+    },
+    {
+      "id": 5,
+      "title": "The Mind of the Leader",
+      "rating": 4,
+      "imageURL" : "https://images-na.ssl-images-amazon.com/images/I/41N3AIytydL._SX331_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 6,
+      "title": "The Art of Thinking Clearly",
+      "rating": 3,
+      "imageURL" : "https://images-na.ssl-images-amazon.com/images/I/41sxe-tZz5L._SX320_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Talking to Strangers",
+      "rating": 5,
+      "imageURL" : "https://images-na.ssl-images-amazon.com/images/I/31BrvZrkaqL._SX325_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 8,
+      "title": "The Institute",
+      "rating": 3,
+      "imageURL" : "https://images-na.ssl-images-amazon.com/images/I/51oovpT1fkL._SX320_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 9,
+      "title": "The Power of Habit",
+      "rating": 4,
+      "imageURL" : "https://images-na.ssl-images-amazon.com/images/I/41DgeZxPqbS._SX322_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 10,
+      "title": "The Sh*t They Never Taught You ",
+      "rating": 3,
+      "imageURL" : "https://i5.walmartimages.com/asr/f2ed6168-e735-447e-bb1d-69984b31f639.4c5bbaf0012c380a10b73d78d60bede6.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+    }
+  ]

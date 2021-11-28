@@ -1,38 +1,26 @@
-require('dotenv').config();
+const express = require('express');
+const cors = require('cors');
 
-const express = require("express");
 const app = express();
 
+app.use(express.json());
+app.use(cors());
 
-app.use(express.static("client"));
-
-
-const shoppingListItems = [
-        "rugs",
-		"towels",
-		"basket",
-        "curtains",
-        "dinner table and chairs",
-  ];
-
-
-
-//GET comliment 
-app.get("/api/shoppingListItems", (req, res) => {
-
-// choose random compliment
-let randomIndex = Math.floor(Math.random() * shoppingListItems.length);
-let randomShoppingListItems = shoppingListItems[randomIndex];
-
-  res.status(200).send(randomShoppingListItems);
-})
+//const controller = require('./controller');
+const {
+  getBooks,
+  deleteBook,
+  createBook,
+  updateBook,
+} = require("./controller");
 
 
 
 
+app.get(`/api/books`, getBooks);
+app.delete(`/api/books/:id`, deleteBook);
+app.post(`/api/books`, createBook);
+app.put(`/api/books/:id`, updateBook)
 
-
-const port =process.env.PORT || process.env.SERVER_PORT;
-
-
-app.listen(port, ()=> console.log(`your server running on port : ${port}`));
+const port = 5000;
+app.listen(port, () => console.log(`We are up on PORT ${port}`));
