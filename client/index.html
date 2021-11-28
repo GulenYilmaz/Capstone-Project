@@ -4,10 +4,54 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Capstone Project</title>
-  <link  rel="stylesheet" href="styles.css"  />
+  <meta name="autor" content="Gulen Yilmaz">
+  
+  <title>Capstone Project Book List</title>
+  <link  rel="stylesheet" href="capstone.css"  />
 </head>
-<body>
-  <h1>This is my Capstone Project!!!</h1>
+<body  id="booklist">
+  <header   >
+    <h1 class="site-title">This is my Capstone Project Book List</h1>
+  </header>
+
+
+
+  <section >
+      <main>
+        <form  id="list">
+          <label  id="label-id">Add New Book :</label>
+            <input type='text' id="list-id" value=" Type new Book Here !!!"/>
+               
+                <button id="button-id" type="submit" value ="submit">Add new Items</button>
+                <button>Delete book</button>
+
+                <select id="add-id" name="add-name">
+                  <option value="Buy a new  dining table and chairs">Buy a new  dining table and chairs</option>
+                  <option value="Buy a new hanger">Buy a new hanger</option>
+                  <option value="Buy a new rug and hanger">Buy a new rug and hanger</option>
+                 
+                </select>
+            
+                <section>
+                  <main>
+                  <form>
+                    <label  id="label-id">Select book here that bought : </label>
+                      <input type='text' id="list-id" value=" Select your item here !!!"/>
+                    <button id="buttonDelete-id" type="submit" value ="submit">Delete book</button>
+                  </form>
+                  </main>
+                </section>
+
+      <h2>Kitchen </h2>
+      <p>organize the cabinets</p>
+      <h2>Dining  Room </h2>
+        </form>         
+    </main>
+  </section>
+
+
+  
+<script  src="./node_modules/axios/dist/axios.min.js"></script>
+  <script  src="main.js" ></script>
 </body>
 </html>
