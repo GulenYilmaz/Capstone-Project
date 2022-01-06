@@ -2,6 +2,7 @@ Project Summary
 
 I'm Gulen Yilmaz
 
+
 Purpose
 
 This web app is a simple and easy to use social media parent`s book content generation platform about how to communication with their kids. 
@@ -21,5 +22,6 @@ User can add a their rate to the book after they read.
 User can delete books from the list.
 
 Dependencies
+
 The back-end server makes use of Express and CORS.
 Axios is used for front end DOM manipulation.
