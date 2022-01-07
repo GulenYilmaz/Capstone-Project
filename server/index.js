@@ -6,6 +6,9 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+//any endpoint will serve the index file
+app.get('/', (req, res) => res.sendFile(path.join(__dirname, '../client/index.html')))
+app.use(express.static('client'));
 
 //const controller = require('./controller');
 const {
