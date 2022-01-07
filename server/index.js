@@ -23,5 +23,5 @@ app.delete(`/api/books/:id`, deleteBook);
 app.post(`/api/books`, createBook);
 app.put(`/api/books/:id`, updateBook)
 
-const port = 5000;
-app.listen(port, () => console.log(`We are up on PORT ${port}`));
+const PORT = 5000;
+app.listen(PORT, () => console.log(`We are up on PORT ${PORT}`));
